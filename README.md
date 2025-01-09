@@ -1,6 +1,6 @@
 # QFileShare
 
-**QFileShare** is a secure file-sharing application that uses Post-Quantum Cryptographic (PQC) techniques to provide strong security against quantum computing threats. It ensures end-to-end encryption and file integrity, offering both security and performance through PQC cryptographic algorithms that are standardized by the *NIST Post-Quantum Cryptography Standardization* process.
+**QFileShare** is a secure file sharing application that uses Post-Quantum Cryptographic (PQC) techniques to provide strong security against quantum computing threats. It ensures end-to-end encryption and file integrity, offering both security and performance through PQC cryptographic algorithms that are standardized by the *NIST Post-Quantum Cryptography Standardization* process.
 
 ## Features
 
