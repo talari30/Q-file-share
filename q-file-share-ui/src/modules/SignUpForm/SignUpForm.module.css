@@ -1,0 +1,46 @@
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-1);
+}
+
+.signUpFormElement {
+  margin: var(--spacing-1-5) 0px;
+}
+
+.passwordContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.showPasswordIcon {
+  position: absolute;
+  right: 1%;
+  cursor: pointer;
+}
+
+.signUpButton {
+  margin-top: var(--spacing-4);
+  width: 60%;
+}
+
+.loginActions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: var(--spacing-1-5);
+}
+
+.loginButton {
+  font-size: small;
+  font-family: "Poppins" sans-serif;
+  margin-left: var(--spacing-quarter);
+  color: var(--color-button-1);
+}
+
+.loginButton:hover {
+  color: var(--color-button-selected-1);
+}

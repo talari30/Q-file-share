@@ -1,0 +1,16 @@
+.container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadFile {
+  margin: var(--spacing-5);
+  padding: 0px var(--spacing-6);
+}
+
+.sendFileOptions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: var(--spacing-5);
+}

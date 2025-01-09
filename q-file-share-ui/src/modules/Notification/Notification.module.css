@@ -1,0 +1,41 @@
+.notification {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  min-width: 40%;
+  margin-top: var(--spacing-1);
+  padding: var(--spacing-1-5);
+  border-radius: var(--spacing-half);
+  transform: translateX(-50%);
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.success {
+  background-color: var(--color-notification-success);
+}
+
+.error {
+  background-color: var(--color-notification-error);
+}
+
+.warn {
+  background-color: var(--color-notification-warn);
+}
+
+.info {
+  background-color: var(--color-notification-info);
+}
+
+.message {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.closeIcon {
+  margin-left: var(--spacing-1);
+  cursor: pointer;
+}

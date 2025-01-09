@@ -1,0 +1,68 @@
+:root {
+  /* Standard Colors */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-light-gray: #e9e7e7;
+
+  /* Generic Colors */
+  --color-border-1: #86868b;
+  --color-border-2: #dbdbe0;
+  --color-border-3: #1e90ff;
+  --color-selected: #072537;
+  --color-navbar: #f0f8ff;
+  --color-box-shadow-1: rgba(0, 0, 0, 0.1);
+  --color-box-shadow-2: rgba(0, 0, 0, 0.2);
+  --color-box-shadow-selected-1: rgba(0, 0, 0, 0.4);
+  --color-heading-1: #4863a0;
+  --color-background-1: #f0f8ff;
+  --color-loader: #5c7f9f;
+
+  /* Button Colors */
+  --color-button-1: #3f5b9e;
+  --color-button-2: #6c757d;
+  --color-button-selected-1: #224085;
+  --color-button-selected-2: #636363;
+
+  /* Notification Colors */
+  --color-notification-success: #32cd32;
+  --color-notification-error: #ff5555;
+  --color-notification-warn: #ffc107;
+  --color-notification-info: #79dafb;
+
+  /* Spacing */
+  --spacing-quarter: 2px;
+  --spacing-half: 4px;
+  --spacing-1: 8px;
+  --spacing-1-5: 12px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 48px;
+  --spacing-7: 56px;
+  --spacing-10: 80px;
+
+  /* Font Sizes */
+  --font-size-15: 15px;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  color: var(--color-black);
+  background: var(--color-white);
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

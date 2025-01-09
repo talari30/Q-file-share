@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--spacing-3) 0px;
+  border: 2px dashed var(--color-border-2);
+  border-radius: var(--spacing-1);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container.active {
+  border-color: var(--color-border-3);
+  background-color: var(----color-background-1);
+}
+
+.fileInput {
+  display: none;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--spacing-3);
+}
+
+.fileIcon {
+  opacity: 0.8;
+}
+
+.fileIcon:hover {
+  opacity: 1;
+}
+
+.uploadedFiles {
+  margin-top: var(--spacing-1);
+  padding: var(--spacing-1);
+}
+
+.uploadedFiles ul {
+  list-style: none;
+  padding: 0;
+}
+
+.uploadedFiles li {
+  padding: var(--spacing-1) 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: var(--spacing-half);
+}
+
+.fileContainer {
+  display: flex;
+  align-items: center;
+}
+
+.fileCheckIcon {
+  margin-right: var(--spacing-half);
+}
+
+.uploadedFiles li:last-child {
+  border-bottom: none;
+}

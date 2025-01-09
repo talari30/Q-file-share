@@ -1,0 +1,47 @@
+.tableContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  padding: 0px var(--spacing-2);
+}
+
+.table {
+  width: 100%;
+}
+
+.tableHeaderValue {
+  font-weight: bold;
+  padding: var(--spacing-half) var(--spacing-1);
+  cursor: pointer;
+}
+
+.headerDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.tableCell {
+  text-align: center;
+  padding: var(--spacing-half);
+  width: fit-content;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.nameSpan {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameSpan:hover {
+  color: var(--color-button-selected-1);
+}
+
+.downloadIcon {
+  margin-left: var(--spacing-half);
+}

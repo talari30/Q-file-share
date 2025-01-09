@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.logo {
+  margin-top: 3%;
+  margin-bottom: var(--spacing-quarter);
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-2) var(--spacing-4);
+  border: 1px solid var(--color-border-1);
+  border-radius: var(--spacing-2);
+  background-color: var(--color-navbar);
+}

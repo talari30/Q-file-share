@@ -1,0 +1,8 @@
+.listHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: var(--spacing-1) var(--spacing-2);
+  margin: var(--spacing-2) 0px;
+}
