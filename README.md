@@ -96,4 +96,3 @@ The following diagrams provide snapshots of the different UI components.
 
 8. **User-Specific File Management**:  
    - Clients can retrieve lists of their shared and received files, along with metadata such as size, upload time, expiration, and download limits. These are accesible at the following endpoints `/shared-file` and `/received-files` respectively.
-# Q-file-share
